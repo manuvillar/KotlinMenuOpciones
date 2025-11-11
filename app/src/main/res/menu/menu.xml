@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Primera opción del menú -->
+    <!-- Este elemento aparecerá en los 3 tipos de menús que usamos -->
     <item
         android:id="@+id/idmenu1"
-        android:title="Mensaje 1" />
+        android:title="Opción 1" />
+
+    <!-- Segunda opción del menú -->
+    <!-- También aparecerá en los 3 tipos de menús -->
     <item
         android:id="@+id/idmenu2"
-        android:title="Mensaje 2" />
+        android:title="Opción 2" />
+
+    <!--
+    Podéis añadir más opciones siguiendo el mismo patrón.
+    Cada <item> necesita:
+    - android:id: Un identificador único para reconocer la opción
+    - android:title: El texto que verá el usuario
+
+    También podéis añadir iconos con android:icon="@drawable/nombre_icono"
+    -->
+
 </menu>
